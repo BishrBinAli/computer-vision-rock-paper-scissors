@@ -14,3 +14,15 @@ Created a computer vision model using Teachable-Machine to identify hand gesture
 - Created function get_computer_choice to randomly select a choice for the computer
 - Created function get_user_choice to ask user for their choice
 - Created function play to play the game
+
+## Milestone 5
+
+- Created a function to predict the option shown by user to webcam
+- Show countdown to let user know when to show their hand
+- Repeat the game till the computer or user wins 3 rounds
+
+### Game screenshots
+
+![game screenshot 1](countdown.png)
+
+![game screenshot 2](result.png)

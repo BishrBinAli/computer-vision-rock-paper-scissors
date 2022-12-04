@@ -58,16 +58,6 @@ def get_winner(computer_choice, user_choice):
         print("You won!")
         return "User"
 
-# def countdown(duration, delay=5):
-#     i = duration
-#     current_time = time.time()
-#     print(i)
-#     while i > 0:
-#         if time.time() - current_time > delay:
-#             i -= 1
-#             print(i)
-#             current_time = time.time()
-
 
 countdown = 5
 round_over = False
@@ -150,7 +140,7 @@ while True:
                 thickness,
                 lineType)
 
-    score_text = f"User: {user_wins},    Computer: {computer_wins}"
+    score_text = f"User: {user_wins}    Computer: {computer_wins}"
     cv2.putText(frame, score_text,
                 (10, 400),
                 font,
